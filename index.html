@@ -1,0 +1,65 @@
+HTML
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ของฉัน</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
+        body { background: #f8fafc; color: #334155; line-height: 1.6; padding: 20px; }
+        .container { max-width: 700px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        header { text-align: center; padding-bottom: 20px; border-bottom: 2px solid #e2e8f0; }
+        h1 { color: #2563eb; margin-bottom: 6px; }
+        section { margin: 24px 0; }
+        h2 { color: #0f172a; margin-bottom: 12px; font-size: 1.25rem; border-left: 4px solid #2563eb; padding-left: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+        .card { background: #f1f5f9; padding: 16px; border-radius: 8px; border: 1px solid #e2e8f0; }
+        .card h3 { font-size: 1rem; color: #1e293b; margin-bottom: 4px; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ชื่อ-นามสกุล</h1>
+            <p>ตำแหน่งที่ต้องการ (เช่น Web Developer / Graphic Designer)</p>
+        </header>
+
+        <section>
+            <h2>เกี่ยวกับฉัน</h2>
+            <p>แนะนำตัวเองสั้นๆ ประวัติการศึกษา หรือเป้าหมายในการทำงาน...</p>
+        </section>
+
+        <section>
+            <h2>ทักษะ (Skills)</h2>
+            <div class="grid">
+                <div class="card">HTML / CSS / JavaScript</div>
+                <div class="card">UI/UX Design</div>
+                <div class="card">Git / GitHub</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>ผลงาน (Projects)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>ชื่อผลงาน 1</h3>
+                    <p>คำอธิบายผลงานสั้นๆ</p>
+                </div>
+                <div class="card">
+                    <h3>ชื่อผลงาน 2</h3>
+                    <p>คำอธิบายผลงานสั้นๆ</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>ติดต่อ</h2>
+            <p>อีเมล: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        </section>
+    </div>
+</body>
+</html>
